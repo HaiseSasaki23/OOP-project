@@ -51,14 +51,22 @@ public class app {
 
         } while (opt < 1 || opt > 3);
 
-        sc.close();
-    }
+        
+    
 
     public static void play() {
-        System.out.println("Placeholder");
+
+        System.out.println("Welcome to Dragon Dungeon. ");
+        System.out.print("It's Mandatory for new challengers to register so please enter your name: ");
+        String playerName = sc.nextLine();
+        System.out.println("Welcome to Dragon Dungeon " + playerName + "please accept this 200 gold as starting bonus.");
+        System.out.println(pla);
+
+        
     }
 
     public static void rules() {
         System.out.println("Placeholder2");
     }
+}
 }
